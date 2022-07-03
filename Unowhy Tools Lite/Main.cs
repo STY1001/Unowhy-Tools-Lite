@@ -108,10 +108,31 @@ namespace Unowhy_Tools_Lite
                 }
             }
 
+            if (bios.Text.Contains("STY1001"))
+            {
+                string passstr = Unowhy_Tools_Lite.Properties.Resources.ene2.ToString();
+                pass.Text = passstr;
+            }
+
             if(pass.Text == "PASS")
             {
                 pass.Text = "Only for Y13 / Seulement pour le Y13";
             }
+        }
+
+        private void sty_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://sty1001.wordpress.com/");
+        }
+
+        private void git_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/STY1001/Unowhy-Tools-Lite");
+        }
+
+        private void gitu_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/STY1001/Unowhy-Tools-Lite/releases/latest");
         }
     }
 }
