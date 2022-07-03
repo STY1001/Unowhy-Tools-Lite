@@ -117,35 +117,47 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="key" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ene" xml:space="preserve">
     <value>F_Hv'U"T-è</value>
-  </data>
-  <data name="ene1" xml:space="preserve">
-    <value>wF(VqfSnsD</value>
-  </data>
-  <data name="ene2" xml:space="preserve">
-    <value>_zjeQSK(xC</value>
-  </data>
-  <data name="ene3" xml:space="preserve">
-    <value>gs-Z(gFjPB</value>
-  </data>
-  <data name="ene4" xml:space="preserve">
-    <value>gGVrANh,Hé</value>
-  </data>
-  <data name="ene5" xml:space="preserve">
-    <value>è','?EHzeè</value>
   </data>
   <data name="ene6" xml:space="preserve">
     <value>YqJ(_(,kXg</value>
   </data>
+  <data name="ene2" xml:space="preserve">
+    <value>_zjeQSK(xC</value>
+  </data>
+  <data name="ene4" xml:space="preserve">
+    <value>gGVrANh,Hé</value>
+  </data>
+  <data name="ene3" xml:space="preserve">
+    <value>gs-Z(gFjPB</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="github" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\github.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UTLiteLogoW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UTLiteLogoW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ene7" xml:space="preserve">
     <value>PYHèQdé_'q</value>
+  </data>
+  <data name="ene5" xml:space="preserve">
+    <value>è','?EHzeè</value>
+  </data>
+  <data name="ene1" xml:space="preserve">
+    <value>wF(VqfSnsD</value>
+  </data>
+  <data name="ic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="update" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\update.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
