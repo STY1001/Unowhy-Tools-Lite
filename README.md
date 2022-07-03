@@ -1,10 +1,10 @@
 ![UTLLogoB](https://raw.githubusercontent.com/STY1001/Unowhy-Tools-Lite/master/README/UTLiteLogoB.png#gh-light-mode-only)
 ![UTLLogoW](https://raw.githubusercontent.com/STY1001/Unowhy-Tools-Lite/master/README/UTLiteLogoW.png#gh-dark-mode-only)
 
-# Find the BIOS Version (ENE) and the password of your Unowhy Y13 without admin !
-# If you are admin, use [Unowhy Tools](https://github.com/STY1001/Unowhy-Tools) instead of Unowhy Tools Lite !
+## Find the BIOS Version (ENE) and the password of your Unowhy Y13 without admin !
+### If you are admin, use [Unowhy Tools](https://github.com/STY1001/Unowhy-Tools) instead of Unowhy Tools Lite !
 
-# How to use
+## How to use
 
 ### This tool doesn't have installer and extra file
 
