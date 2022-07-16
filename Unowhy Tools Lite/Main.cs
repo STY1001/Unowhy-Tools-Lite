@@ -20,8 +20,10 @@ namespace Unowhy_Tools_Lite
 
         protected override void OnHandleCreated(EventArgs e)
         {
-            if (DwmSetWindowAttribute(Handle, 19, new[] { 1 }, 4) != 0)
-                DwmSetWindowAttribute(Handle, 20, new[] { 1 }, 4);
+            DwmSetWindowAttribute(Handle, 19, new[] { 1 }, 4);
+            DwmSetWindowAttribute(Handle, 20, new[] { 1 }, 4);
+            DwmSetWindowAttribute(Handle, 35, new[] { 1 }, 4);
+            DwmSetWindowAttribute(Handle, 38, new[] { 1 }, 4);
         }
 
         string GetLine(string text, int lineNo)
