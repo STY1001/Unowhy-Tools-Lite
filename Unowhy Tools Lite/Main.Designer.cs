@@ -44,12 +44,15 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.gitu = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.manual = new System.Windows.Forms.Button();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -205,10 +208,32 @@
             this.pictureBox6.TabIndex = 9;
             this.pictureBox6.TabStop = false;
             // 
+            // manual
+            // 
+            this.manual.Location = new System.Drawing.Point(267, 100);
+            this.manual.Name = "manual";
+            this.manual.Size = new System.Drawing.Size(75, 23);
+            this.manual.TabIndex = 10;
+            this.manual.Text = "Manual";
+            this.manual.UseVisualStyleBackColor = true;
+            this.manual.Click += new System.EventHandler(this.manual_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::Unowhy_Tools_Lite.Properties.Resources.customize;
+            this.pictureBox7.Location = new System.Drawing.Point(347, 100);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 9;
+            this.pictureBox7.TabStop = false;
+            // 
             // Main
             // 
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(387, 211);
+            this.Controls.Add(this.manual);
+            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -237,6 +262,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -259,6 +285,8 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Button gitu;
         private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Button manual;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }
 

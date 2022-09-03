@@ -61,6 +61,16 @@ namespace Unowhy_Tools_Lite.Properties {
         }
         
         /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap customize {
+            get {
+                object obj = ResourceManager.GetObject("customize", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à F_Hv&apos;U&quot;T-è.
         /// </summary>
         internal static string ene {
