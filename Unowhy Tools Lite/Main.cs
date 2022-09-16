@@ -62,74 +62,85 @@ namespace Unowhy_Tools_Lite
 
             bios.Text = enestr2;
 
-            if (bios.Text.Contains("ENE_"))
+            if (ifpstr2.Contains("IFP2"))
             {
-                if (bios.Text.Contains("ENE_1"))
+                if (bios.Text.Contains("_ENE"))
                 {
-                    string passstr = Unowhy_Tools_Lite.Properties.Resources.ene1.ToString();
-                    pass.Text = passstr;
-                }
-
-                if (bios.Text.Contains("ENE_2"))
-                {
-                    string passstr = Unowhy_Tools_Lite.Properties.Resources.ene2.ToString();
-                    pass.Text = passstr;
-                }
-
-                if (bios.Text.Contains("ENE_3"))
-                {
-                    string passstr = Unowhy_Tools_Lite.Properties.Resources.ene3.ToString();
-                    pass.Text = passstr;
-                }
-
-                if (bios.Text.Contains("ENE_4"))
-                {
-                    string passstr = Unowhy_Tools_Lite.Properties.Resources.ene4.ToString();
-                    pass.Text = passstr;
-                }
-
-                if (bios.Text.Contains("ENE_5"))
-                {
-                    string passstr = Unowhy_Tools_Lite.Properties.Resources.ene5.ToString();
-                    pass.Text = passstr;
-                }
-
-                if (bios.Text.Contains("ENE_6"))
-                {
-                    string passstr = Unowhy_Tools_Lite.Properties.Resources.ene6.ToString();
-                    pass.Text = passstr;
-                }
-
-                if (bios.Text.Contains("ENE_7"))
-                {
-                    string passstr = Unowhy_Tools_Lite.Properties.Resources.ene7.ToString();
+                    string passstr = Unowhy_Tools_Lite.Properties.Resources.ene2022.ToString();
                     pass.Text = passstr;
                 }
             }
             else
             {
-                if (bios.Text.Contains("timing"))
+                if (bios.Text.Contains("ENE_"))
                 {
-                    string passstr = Unowhy_Tools_Lite.Properties.Resources.ene.ToString();
+                    if (bios.Text.Contains("ENE_1"))
+                    {
+                        string passstr = Unowhy_Tools_Lite.Properties.Resources.ene1.ToString();
+                        pass.Text = passstr;
+                    }
+
+                    if (bios.Text.Contains("ENE_2"))
+                    {
+                        string passstr = Unowhy_Tools_Lite.Properties.Resources.ene2.ToString();
+                        pass.Text = passstr;
+                    }
+
+                    if (bios.Text.Contains("ENE_3"))
+                    {
+                        string passstr = Unowhy_Tools_Lite.Properties.Resources.ene3.ToString();
+                        pass.Text = passstr;
+                    }
+
+                    if (bios.Text.Contains("ENE_4"))
+                    {
+                        string passstr = Unowhy_Tools_Lite.Properties.Resources.ene4.ToString();
+                        pass.Text = passstr;
+                    }
+
+                    if (bios.Text.Contains("ENE_5"))
+                    {
+                        string passstr = Unowhy_Tools_Lite.Properties.Resources.ene5.ToString();
+                        pass.Text = passstr;
+                    }
+
+                    if (bios.Text.Contains("ENE_6"))
+                    {
+                        string passstr = Unowhy_Tools_Lite.Properties.Resources.ene6.ToString();
+                        pass.Text = passstr;
+                    }
+
+                    if (bios.Text.Contains("ENE_7"))
+                    {
+                        string passstr = Unowhy_Tools_Lite.Properties.Resources.ene7.ToString();
+                        pass.Text = passstr;
+                    }
+                }
+                else
+                {
+                    if (bios.Text.Contains("timing"))
+                    {
+                        string passstr = Unowhy_Tools_Lite.Properties.Resources.ene.ToString();
+                        pass.Text = passstr;
+                    }
+
+                    if (bios.Text.Contains("_ENE"))
+                    {
+                        string passstr = Unowhy_Tools_Lite.Properties.Resources.ene.ToString();
+                        pass.Text = passstr;
+                    }
+                }
+
+                if (bios.Text.Contains("STY1001"))
+                {
+                    string passstr = Unowhy_Tools_Lite.Properties.Resources.ene2.ToString();
                     pass.Text = passstr;
                 }
 
-                if (bios.Text.Contains("_ENE"))
+                if (pass.Text == "PASS")
                 {
-                    string passstr = Unowhy_Tools_Lite.Properties.Resources.ene.ToString();
-                    pass.Text = passstr;
+                    pass.Text = "Only for Y13 / Seulement pour le Y13";
                 }
-            }
-
-            if (bios.Text.Contains("STY1001"))
-            {
-                string passstr = Unowhy_Tools_Lite.Properties.Resources.ene2.ToString();
-                pass.Text = passstr;
-            }
-
-            if(pass.Text == "PASS")
-            {
-                pass.Text = "Only for Y13 / Seulement pour le Y13";
             }
         }
 

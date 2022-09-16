@@ -86,9 +86,15 @@ namespace Unowhy_Tools_Lite
                     pass.Text = passstr;
                 }
 
-                if (ene.Text.Contains("_ENE"))
+                if (ene.Text.Contains("ENE (2019/2020)"))
                 {
                     string passstr = Unowhy_Tools_Lite.Properties.Resources.ene.ToString();
+                    pass.Text = passstr;
+                }
+
+                if (ene.Text.Contains("ENE (2022)"))
+                {
+                    string passstr = Unowhy_Tools_Lite.Properties.Resources.ene2022.ToString();
                     pass.Text = passstr;
                 }
             }

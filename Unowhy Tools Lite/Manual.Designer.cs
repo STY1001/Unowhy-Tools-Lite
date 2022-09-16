@@ -45,7 +45,7 @@
             this.ene.ForeColor = System.Drawing.Color.White;
             this.ene.FormattingEnabled = true;
             this.ene.Items.AddRange(new object[] {
-            "ENE",
+            "ENE (2019/2020)",
             "timing",
             "ENE_1",
             "ENE_2",
@@ -53,12 +53,13 @@
             "ENE_4",
             "ENE_5",
             "ENE_6",
-            "ENE_7"});
+            "ENE_7",
+            "ENE (2022)"});
             this.ene.Location = new System.Drawing.Point(51, 28);
             this.ene.Name = "ene";
             this.ene.Size = new System.Drawing.Size(121, 21);
             this.ene.TabIndex = 0;
-            this.ene.Text = "ENE";
+            this.ene.Text = "ENE (2019/2020)";
             this.ene.SelectedIndexChanged += new System.EventHandler(this.ene_SelectedIndexChanged);
             // 
             // pictureBox2

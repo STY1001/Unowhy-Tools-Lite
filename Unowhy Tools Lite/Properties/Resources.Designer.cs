@@ -98,6 +98,15 @@ namespace Unowhy_Tools_Lite.Properties {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Not found / Non trouvé.
+        /// </summary>
+        internal static string ene2022 {
+            get {
+                return ResourceManager.GetString("ene2022", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à gs-Z(gFjPB.
         /// </summary>
         internal static string ene3 {
