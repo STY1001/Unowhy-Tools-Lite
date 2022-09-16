@@ -45,6 +45,17 @@ namespace Unowhy_Tools_Lite
             string enestr = p.StandardOutput.ReadToEnd();
             string enestr2 = GetLine(enestr, 2);
 
+            Process p2 = new Process();
+            p2.StartInfo.FileName = "wmic";
+            p2.StartInfo.Arguments = "bios get smbiosbiosversion";
+            p2.StartInfo.UseShellExecute = false;
+            p2.StartInfo.RedirectStandardOutput = true;
+            p2.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+            p2.Start();
+
+            string ifpstr = p.StandardOutput.ReadToEnd();
+            string ifpstr2 = GetLine(ifpstr, 2);
+
             InitializeComponent();
 
             
