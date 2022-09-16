@@ -42,6 +42,7 @@
             // ene
             // 
             this.ene.BackColor = System.Drawing.Color.Black;
+            this.ene.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ene.ForeColor = System.Drawing.Color.White;
             this.ene.FormattingEnabled = true;
             this.ene.Items.AddRange(new object[] {
@@ -132,7 +133,7 @@
             this.MinimizeBox = false;
             this.Name = "Manual";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ENE Manual Select";
+            this.Text = "ENE Manual Selection";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
